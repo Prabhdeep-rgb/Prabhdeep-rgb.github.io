@@ -1,27 +1,102 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Home - My Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prabhdeep's Portfolio</title>
   <style>
-    h1 { color: darkblue; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #e9f2fa;
+      color: #222;
+    }
+
+    header {
+      background-color: #004a99;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .main-section {
+      max-width: 900px;
+      background: white;
+      margin: 40px auto;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    }
+
+    .main-section h2 {
+      font-size: 2.2em;
+      margin-bottom: 20px;
+      color: #004a99;
+    }
+
+    .main-section p {
+      font-size: 1.1em;
+      line-height: 1.7;
+    }
+
+    footer {
+      background-color: #004a99;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #0073e6;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1em;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #005bb5;
+    }
   </style>
 </head>
 <body>
+
   <header>
+    <h1>Welcome to Prabhdeep's Portfolio</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <div class="container">
-    <h1>Welcome to My Portfolio</h1>
-    <p style="color: green;">This is the homepage of my personal portfolio website.</p>
-  </div>
+
+  <section class="main-section">
+    <h2>Hello! I'm Prabhdeep</h2>
+    <p>
+     Hi, my name is Prabhdeep. I’m a Grade 8 student from Surrey. I enjoy learning new things, working on creative projects, and helping others. I’m responsible, hardworking, and always try my best. I like science, art, and spending time with my family and dog.
+    </p>
+    <a class="btn" href="about.html">More About Me</a>
+  </section>
+
   <footer>
-    &copy; 2025 My Portfolio
+    <p>&copy; 2025 Prabhdeep's Portfolio</p>
   </footer>
+
 </body>
 </html>
+
