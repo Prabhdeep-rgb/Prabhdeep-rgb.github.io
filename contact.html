@@ -2,111 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact - Prabhdeep</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Helvetica Neue', sans-serif;
-      background-color: #e9f2fa;
-      color: #222;
-    }
-
-    header {
-      background-color: #004a99;
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-    }
-
-    .main-section {
-      max-width: 900px;
-      background: white;
-      margin: 40px auto;
-      padding: 40px;
-      border-radius: 8px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.05);
-      text-align: center;
-    }
-
-    .main-section h2 {
-      font-size: 2.2em;
-      margin-bottom: 20px;
-      color: #004a99;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      margin-top: 20px;
-    }
-
-    input, textarea {
-      padding: 10px;
-      font-size: 1em;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    button {
-      background-color: #0073e6;
-      color: white;
-      padding: 10px;
-      font-size: 1em;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #005bb5;
-    }
-
-    footer {
-      background-color: #004a99;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 60px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
-  <header>
-    <h1>Contact Me</h1>
+  <header class="site-header">
+    <div class="logo">Prabhdeep's Portfolio</div>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <section class="main-section">
-    <h2>Get in Touch</h2>
-    <p>Have a question or want to say hi? Fill out the form or email me at:</p>
-    <p><strong>dhaliwalprabhdeep11@gmail.com</strong></p>
+  <main class="content-section">
+    <section class="contact-box">
+      <h2>Contact Me</h2>
+      <p>If you'd like to get in touch, feel free to email me anytime.</p>
+      <p>Email: <a href="mailto:dhaliwalprabhdeep11@gmail.com">dhaliwalprabhdeep11@gmail.com</a></p>
+    </section>
+  </main>
 
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Prabhdeep's Portfolio</p>
+  <footer class="site-footer">
+    <p>&copy; 2025 Prabhdeep Dhaliwal</p>
   </footer>
-
 </body>
 </html>

@@ -1,0 +1,88 @@
+/* General */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+/* Header */
+.site-header {
+  background-color: #1d3557;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.site-header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Content Section */
+.content-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #457b9d;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #1d3557;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  background-color: #1d3557;
+  color: white;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+/* About and Contact Boxes */
+.about-box, .contact-box {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.about-box h2,
+.contact-box h2 {
+  color: #1d3557;
+}
